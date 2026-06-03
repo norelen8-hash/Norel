@@ -8,13 +8,17 @@
 </head>
 <body>
 
-    <!-- Шапка -->
+      <!-- Шапка сайта со стрелочкой Назад (для внутренних страниц) -->
     <header class="header">
         <div class="container">
-            <div class="logo"><a href="index.html">Norel</a></div>
+            <div class="header-left">
+                <!-- Кнопка Назад, которая возвращает на предыдущую страницу -->
+                <a href="javascript:history.back()" class="btn-back">← Назад</a>
+                <div class="logo"><a href="index.html">Norel</a></div>
+            </div>
             <nav class="nav">
                 <a href="index.html">Главная</a>
-                <a href="services.html" class="active">Услуги и цены</a>
+                <a href="services.html">Услуги и цены</a>
             </nav>
         </div>
     </header>
