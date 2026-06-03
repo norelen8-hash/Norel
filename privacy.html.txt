@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Политика конфиденциальности — СтройМастер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">СтройМастер</div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги и цены</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Текст политики -->
+    <main class="container page-content" style="max-width: 800px; line-height: 1.6;">
+        <h1 style="margin-bottom: 20px; font-size: 24px;">Политика конфиденциальности</h1>
+        <p style="margin-bottom: 15px;">Настоящая Политика конфиденциальности персональных данных действует в отношении всей информации, которую данный сайт может получить о Пользователе во время использования сайта.</p>
+        
+        <h2 style="font-size: 18px; margin: 20px 0 10px 0;">1. Определение терминов</h2>
+        <p style="margin-bottom: 15px;">«Персональные данные» — любая информация, относящаяся к прямо или косвенно определенному или определяемому физическому лицу (субъекту персональных данных).</p>
+
+        <h2 style="font-size: 18px; margin: 20px 0 10px 0;">2. Цели сбора персональной информации пользователя</h2>
+        <p style="margin-bottom: 15px;">Персональные данные Пользователя (имя, телефон, email) администрация сайта может использовать в целях идентификации Пользователя для оформления заказа и (или) заключения Договора оказания услуг, а также для связи с Пользователем.</p>
+
+        <h2 style="font-size: 18px; margin: 20px 0 10px 0;">3. Оплата банковскими картами</h2>
+        <p style="margin-bottom: 15px;">Сбор, обработка и хранение ваших банковских данных (номер карты, срок действия, CVV) осуществляются исключительно на стороне процессингового центра платежного шлюза банка. Данный сайт не собирает, не обрабатывает и не хранит платежные данные Пользователя.</p>
+        
+        <p style="margin-top: 30px; font-size: 14px; color: #666;">Дата обновления: Июнь 2026 года</p>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 СтройМастер. <a href="privacy.html" style="color: #aaa; text-decoration: underline; margin-left: 10px;">Политика конфиденциальности</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

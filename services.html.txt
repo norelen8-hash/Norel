@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши услуги и цены — СтройМастер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">СтройМастер</div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="services.html" class="active">Услуги и цены</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="container page-content">
+        <h1 class="page-title">Каталог услуг по ремонту</h1>
+        
+        <!-- Сетка карточек -->
+        <div class="services-grid">
+            
+            <!-- Карточка 1 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Косметический ремонт квартиры</h3>
+                    <p class="card-desc">Обновление обоев, покраска потолков, замена напольного покрытия без перепланировки.</p>
+                    <div class="card-footer">
+                        <span class="price">от 4 500 ₽ / м²</span>
+                        <a href="#" class="btn-buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <a href="service-item.html"><h3>Капитальный ремонт...</h3></a>
+                    <p class="card-desc">Полный комплекс работ: выравнивание стен, замена коммуникаций, чистовая отделка.</p>
+                    <div class="card-footer">
+                        <span class="price">от 9 000 ₽ / м²</span>
+                        <a href="service-item.html" class="btn-buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Дизайнерский ремонт</h3>
+                    <p class="card-desc">Ремонт по индивидуальному дизайн-проекту с авторским надзором и премиум материалами.</p>
+                    <div class="card-footer">
+                        <span class="price">от 15 000 ₽ / м²</span>
+                        <a href="#" class="btn-buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 4 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Монтаж электропроводки</h3>
+                    <p class="card-desc">Штробление стен, прокладка кабеля, сборка электрощита, установка розеток.</p>
+                    <div class="card-footer">
+                        <span class="price">от 12 000 ₽</span>
+                        <a href="#" class="btn-buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 5 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Ремонт ванной комнаты</h3>
+                    <p class="card-desc">Укладка плитки, монтаж сантехники, гидроизоляция, замена труб водоснабжения.</p>
+                    <div class="card-footer">
+                        <span class="price">от 45 000 ₽</span>
+                        <a href="#" class="btn-buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 6 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Отделка загородного дома</h3>
+                    <p class="card-desc">Внутренняя обшивка вагонкой, имитацией бруса, утепление стен и полов.</p>
+                    <div class="card-footer">
+                        <span class="price">от 7 500 ₽ / м²</span>
+                        <a href="#" class="btn-buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 7 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Покраска фасада дома</h3>
+                    <p class="card-desc">Подготовка наружных стен, грунтование и нанесение фасадной защитной краски.</p>
+                    <div class="card-footer">
+                        <span class="price">от 400 ₽ / м²</span>
+                        <a href="#" class="btn-buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 8 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Укладка напольных покрытий</h3>
+                    <p class="card-desc">Профессиональный монтаж ламината, паркетной доски, линолеума или ковролина.</p>
+                    <div class="card-footer">
+                        <span class="price">от 350 ₽ / м²</span>
+                        <a href="#" class="btn-buy">Заказать</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 9 (Для разнообразия - под заказ / скоро) -->
+            <div class="card opacity-mut">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Монтаж систем отопления</h3>
+                    <p class="card-desc">Проектирование и разводка труб отопления, установка радиаторов и котлов.</p>
+                    <div class="card-footer">
+                        <span class="status-not">Ожидается</span>
+                        <a href="#" class="btn-buy btn-disabled">Недоступно</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 10 -->
+            <div class="card opacity-mut">
+                <div class="card-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="card-body">
+                    <h3>Установка натяжных потолков</h3>
+                    <p class="card-desc">Монтаж ПВХ и тканевых полотен любой сложности с установкой точечного света.</p>
+                    <div class="card-footer">
+                        <span class="status-not">Ожидается</span>
+                        <a href="#" class="btn-buy btn-disabled">Недоступно</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Требование эквайринга: Информационный блок банка -->
+        <section class="bank-info">
+            <h2>Информация для покупателей (Требование банка)</h2>
+            <p><strong>Юридическое лицо:</strong> ИП Иванов Иван Иванович | <strong>ОГРНИП:</strong> 321XXXXXXXXXXXX | <strong>ИНН:</strong> 77XXXXXXXXXX</p>
+            <p><strong>Способы оплаты:</strong> Оплата банковскими картами осуществляется через интернет-эквайринг. К оплате принимаются карты МИР, Visa, MasterCard.</p>
+            <p><strong>Условия возврата:</strong> Возврат денежных средств за неоказанные услуги производится в соответствии с законодательством РФ и договором-офертой.</p>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+     <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 СтройМастер. Все права защищены. Телефон: +7 (999) 123-45-67 | 
+                <a href="privacy.html" style="color: #aaa; text-decoration: underline; margin-left: 10px;">Политика конфиденциальности</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

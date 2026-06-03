@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт квартир и домов под ключ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">СтройМастер</div>
+            <nav class="nav">
+                <a href="index.html" class="active">Главная</a>
+                <a href="services.html">Услуги и цены</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный баннер (Визитка) -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Качественный ремонт квартир и загородных домов</h1>
+            <p>Профессиональная отделка, строгий контроль качества и соблюдение сроков. Превратим бетонные стены в уютное жилье.</p>
+            <a href="services.html" class="btn">Посмотреть услуги и цены</a>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+     <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 СтройМастер. Все права защищены. Телефон: +7 (999) 123-45-67 | 
+                <a href="privacy.html" style="color: #aaa; text-decoration: underline; margin-left: 10px;">Политика конфиденциальности</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

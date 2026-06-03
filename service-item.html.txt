@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Капитальный ремонт под ключ — СтройМастер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">СтройМастер</div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="services.html" class="active">Услуги и цены</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент страницы услуги -->
+    <main class="container page-content">
+        <div class="service-detail">
+            
+            <!-- Левая колонка: Изображение -->
+            <div class="service-gallery">
+                <img src="https://unsplash.com" alt="Капитальный ремонт" class="main-img">
+            </div>
+
+            <!-- Правая колонка: Информация и покупка -->
+            <div class="service-info">
+                <span class="category">Категория: Ремонт квартир</span>
+                <h1>Капитальный ремонт под ключ</h1>
+                <p class="service-price">от 9 000 ₽ / м²</p>
+                
+                <div class="service-description">
+                    <h3>Что входит в стоимость:</h3>
+                    <ul>
+                        <li>Демонтаж старых покрытий и перегородок</li>
+                        <li>Выравнивание стен, пола и потолка (стяжка, штукатурка)</li>
+                        <li>Полная замена труб водоснабжения и канализации</li>
+                        <li>Новая электропроводка от щитка до розеток</li>
+                        <li>Финишная чистовая отделка (обои, ламинат, плитка)</li>
+                    </ul>
+                </div>
+
+                <!-- Кнопка оплаты для эквайринга -->
+                <div class="payment-box">
+                    <p class="payment-notice">После нажатия кнопки вы перейдете на защищенную платежную страницу банка для внесения аванса (1 000 ₽) или оплаты выезда замерщика.</p>
+                    <a href="#" class="btn-pay-now">Внести аванс и заказать</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Подвал -->
+     <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 СтройМастер. Все права защищены. Телефон: +7 (999) 123-45-67 | 
+                <a href="privacy.html" style="color: #aaa; text-decoration: underline; margin-left: 10px;">Политика конфиденциальности</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
