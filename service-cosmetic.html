@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши услуги и цены — Norel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo"><a href="index.html">Norel</a></div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="services.html" class="active">Услуги и цены</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент страницы услуги -->
+    <main class="container page-content">
+        <div class="service-detail">
+            
+            <!-- Левая колонка: Изображение -->
+            <div class="service-gallery">
+                <img src="cosmetic.jpg" alt="Косметический ремонт квартиры" class="main-img">
+            </div>
+
+            <!-- Правая колонка: Информация и покупка -->
+            <div class="service-info">
+                <span class="category">Категория: Ремонт квартир</span>
+                <h1>Косметический ремонт квартиры</h1>
+                <p class="service-price">от 4 600 ₽ / м²</p>
+                
+                <div class="service-description">
+                    <h3>Что входит в стоимость:</h3>
+                    <ul>
+                        <li>Демонтаж старых обоев и финишных покрытий</li>
+                        <li>Грунтование стен и потолков</li>
+                        <li>Поклейка современных обоев (флизелин, винил)</li>
+                        <li>Укладка нового напольного покрытия (ламинат, линолеум)</li>
+                        <li>Монтаж напольных и потолочных плинтусов</li>
+                    </ul>
+                </div>
+
+                <!-- Кнопка оплаты для эквайринга -->
+                              <!-- Кнопки действий и контакты -->
+                <div class="payment-box">
+                    <p class="payment-notice">Выберите удобный способ взаимодействия. Для фиксации даты ремонта вы можете внести аванс, либо связаться с нами напрямую.</p>
+                    
+                    <!-- Две кнопки в один ряд -->
+                    <div class="btn-group">
+                        <a href="#" class="btn-pay-now">Внести аванс и заказать замер</a>
+                        <button class="btn-contact-toggle" onclick="toggleContacts()">Связаться с нами</button>
+                    </div>
+
+                    <!-- Выпадающий список контактов (изначально скрыт) -->
+                    <div id="contact-list" class="contact-dropdown">
+                        <h4>Наши контакты для связи:</h4>
+                        <p><strong>Телефон:</strong> <a href="tel:+79939533605">+7 (993) 953-36-05</a></p>
+                        <p><strong>Telegram / WhatsApp:</strong> +7 (993) 953-36-05</p>
+                        <p><strong>Email:</strong> Norelenger@gmail.com</p>
+                        <p class="working-hours">Часы работы: ежедневно с 09:00 до 21:00</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Информация для покупателей теперь внутри тега main перед подвалом -->
+        <section class="bank-info" style="margin-top: 40px;">
+            <h2>Информация для покупателей</h2>
+            <p><strong>Юридическое лицо:</strong> ИП Столбов Александр Максимович | <strong>ОГРНИП:</strong> 326547600104982 | <strong>ИНН:</strong> 540205994553</p>
+            <p><strong>Способы оплаты:</strong> Оплата банковскими картами осуществляется через интернет-эквайринг. К оплате принимаются карты МИР, Visa, MasterCard, СБП.</p>
+            <p><strong>Условия возврата:</strong> Возврат денежных средств за неоказанные услуги производится в соответствии с законодательством РФ и договором-офертой.</p>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Norel. Все права защищены. Телефон: +7 (993) 953-36-05 | 
+                <a href="privacy.html" style="color: #aaa; text-decoration: underline; margin-left: 10px;">Политика конфиденциальности</a>
+            </p>
+        </div>
+    </footer>
+  <!-- Скрипт для раскрытия контактов -->
+    <script>
+        function toggleContacts() {
+            var contactBlock = document.getElementById("contact-list");
+            if (contactBlock.style.display === "block") {
+                contactBlock.style.display = "none";
+            } else {
+                contactBlock.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
