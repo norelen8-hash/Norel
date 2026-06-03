@@ -131,7 +131,7 @@ body {
 /* НОВЫЙ КОД ДЛЯ КАРТИНКИ И ПРОЗРАЧНОЙ ПЛАШКИ */
 
 .card-img {
-    height: 220px; /* Сделали картинку повыше, чтобы текст не перекрывал всё фото */
+    height: 230px; /* Сделали картинку повыше, чтобы текст не перекрывал всё фото */
     background-size: cover;
     background-position: center;
     position: relative; /* Это важно, чтобы плашка прижалась к низу фото */
@@ -160,27 +160,28 @@ body {
 }
 
 .card-body {
-    padding: 20px;
+    padding: 12px 15px;
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
+/* Текст описания делаем чуть аккуратнее */
 .card-desc {
-    font-size: 14px;
+    font-size: 13px; /* Слегка уменьшили шрифт (было 14px) */
     color: #666;
     line-height: 1.4;
-    margin-bottom: 20px;
+    margin-bottom: 12px; /* Уменьшили нижний отступ */
     flex: 1;
 }
 
-/* Кнопки и цены в карточке */
+/* Сжимаем отступы в подвале карточки */
 .card-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #f0f0f0;
-    padding-top: 15px;
+    padding-top: 10px; /* Уменьшили отступ сверху */
 }
 
 .price {
