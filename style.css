@@ -342,3 +342,75 @@ body {
 .card-img-title a:hover h3 {
     color: #ff6600 !important; /* При наведении заголовок станет оранжевым */
 }
+/* Стили для двух кнопок и контактов */
+.btn-group {
+    display: flex;
+    gap: 15px; /* Отступ между кнопками */
+    margin-bottom: 0;
+    flex-wrap: wrap; /* Чтобы на смартфонах кнопки переносились друг под друга */
+}
+
+.btn-group .btn-pay-now {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+/* Вторая кнопка (Связаться) */
+.btn-contact-toggle {
+    flex: 1;
+    min-width: 200px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-contact-toggle:hover {
+    background-color: #444;
+}
+
+/* Скрытый блок контактов */
+.contact-dropdown {
+    display: none; /* По умолчанию скрыто */
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    animation: fadeIn 0.3s ease;
+}
+
+.contact-dropdown h4 {
+    margin-bottom: 10px;
+    color: #ff6600;
+}
+
+.contact-dropdown p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-dropdown a {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.working-hours {
+    font-style: italic;
+    color: #777 !important;
+    margin-top: 5px;
+}
+
+/* Анимация плавного появления */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
