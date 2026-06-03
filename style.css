@@ -348,6 +348,7 @@ body {
     gap: 15px; /* Отступ между кнопками */
     margin-bottom: 0;
     flex-wrap: wrap; /* Чтобы на смартфонах кнопки переносились друг под друга */
+    align-items: stretch;
 }
 
 .btn-group .btn-pay-now {
@@ -356,24 +357,35 @@ body {
     text-align: center;
 }
 
-/* Вторая кнопка (Связаться) */
+/* Обновленная вторая кнопка (Связаться) */
 .btn-contact-toggle {
     flex: 1;
     min-width: 200px;
-    background-color: #222;
-    color: #fff;
+    background-color: #333333; /* Благородный темно-серый цвет */
+    color: #ffffff;
     border: none;
-    padding: 15px;
+    
+    /* Эти свойства делают её равной по высоте оранжевой кнопке */
+    padding: 15px 20px; 
     font-size: 16px;
     font-weight: bold;
+    line-height: 1.2;
+    
     border-radius: 4px;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.1s;
+    display: inline-block;
+    text-align: center;
 }
 
 .btn-contact-toggle:hover {
-    background-color: #444;
+    background-color: #222222; /* Насыщенный черный цвет при наведении */
 }
+
+.btn-contact-toggle:active {
+    transform: scale(0.98); /* Легкий эффект нажатия */
+}
+
 
 /* Скрытый блок контактов */
 .contact-dropdown {
