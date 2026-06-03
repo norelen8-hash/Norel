@@ -333,3 +333,12 @@ body {
 .btn-pay-now:hover {
     background-color: #e05500;
 }
+/* Делаем ссылку-заголовок белой */
+.card-img-title a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #ffffff !important; /* Делаем текст белым */
+}
+
+.card-img-title a:hover h3 {
+    color: #ff6600 !important; /* При наведении заголовок станет оранжевым */
+}
